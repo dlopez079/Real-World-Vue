@@ -1,14 +1,24 @@
-# Intro to Real-World-Vue
-In this course, we’ll be teaching you how to build a production-level single page application (SPA) with Vue.js.
+# real-world-vue
 
-# Learn best practices
-We’ll be covering
+## Project setup
+```
+npm install
+```
 
-# Optimizing your editor for Vue development
-Vue CLI: everything you need to know
-Vue Router
-Vue Components
-API calls with Axios
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-# Prerequisites
-This course does assume you know the basics of Vue. If you haven’t learned those yet, head over to our free Intro to Vue.js course first.
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
