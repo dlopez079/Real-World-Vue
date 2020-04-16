@@ -1,9 +1,9 @@
 /* eslint-disable prettier/prettier */
 import Vue from "vue";
 import VueRouter from "vue-router";
-import EventCreate from "./views/EventCreate.vue";
-import EventList from "./views/EventList.vue";
-import EventShow from "./views/EventShow.vue";
+import EventCreate from "../views/EventCreate";
+import EventList from "../views/EventList";
+import EventShow from "../views/EventShow";
 
 Vue.use(VueRouter);
 
@@ -23,7 +23,6 @@ const routes = [
     name: 'event-create',
     component: EventCreate
   }
-
 ];
 
 const router = new VueRouter({
