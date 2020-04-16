@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<h4>Park Cleanup</h4>
+		<h4>{{ title }}</h4>
 	</div>
 </template>
 
