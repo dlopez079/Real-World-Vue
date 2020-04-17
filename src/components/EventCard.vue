@@ -5,10 +5,6 @@
 			<span class="eyebrow">@{{ event.time }} on {{ event.date }}</span>
 			<h4 class="title">{{ event.title }}</h4>
 			<BaseIcon name="users">{{ event.attendees.length }} attending</BaseIcon>
-			<MediaBox>
-				<h2 slot="heading">Adam Jahr</h2>
-				<p slot="paragraph">My words.</p>
-			</MediaBox>
 		</div>
 	</router-link>
 </template>
