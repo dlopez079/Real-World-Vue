@@ -1,8 +1,8 @@
 <template>
 	<div>
 		<UserAvatar>
-			<slot></slot>
-			<slot></slot>
+			<slot name="heading"></slot>
+			<slot name="paragraph"></slot>
 		</UserAvatar>
 	</div>
 </template>
