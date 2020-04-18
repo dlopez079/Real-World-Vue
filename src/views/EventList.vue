@@ -8,16 +8,22 @@
 
 <script>
 import EventCard from "../components/EventCard";
+import axios from "axios";
 export default {
   components: { EventCard: EventCard },
+  data() {
+    return {
+      events: [],
+    };
+  },
   created() {
     axios
-      .get("http://localhost:3000/events") // Does a get request
+      .get("http://localhost:3000/events")
       .then((response) => {
-        console.log(response.data); // For now, logs out the response
+        console.log(response.data);
       })
       .catch((error) => {
-        console.log("There was an error:", error.response); // Logs out the error
+        console.log("There was an error:", error.response);
       });
   },
 };
