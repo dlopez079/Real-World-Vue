@@ -20,7 +20,7 @@ export default {
     axios
       .get("http://localhost:3000/events")
       .then((response) => {
-        console.log(response.data);
+        this.events = response.data;
       })
       .catch((error) => {
         console.log("There was an error:", error.response);
